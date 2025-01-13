@@ -29,3 +29,12 @@ ros2 topic echo <topicName>
 ros2 node list
 ros2 node info <nodeName>
 ```
+
+Inside docker bash:
+
+
+Static Broadcaster: https://docs.ros.org/en/foxy/Tutorials/Intermediate/Tf2/Writing-A-Tf2-Static-Broadcaster-Py.html
+
+ros2 pkg create --build-type ament_python learning_tf2_py
+
+
