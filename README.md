@@ -9,6 +9,9 @@ https://docs.ros.org/en/foxy/Tutorials/Intermediate/Tf2/Introduction-To-Tf2.html
 
 start docker 
 
+When docker service is not running:
+docker: error during connect: Head "http://%2F%2F.%2Fpipe%2FdockerDesktopLinuxEngine/_ping": open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified. 
+
 ```bash
 docker run -it -v <absolute_path_to_this_repo>/ros2_tf2_ws/src/:/ros2_tf2_ws/src/ --name ros2_tf2 ros:foxy
 ```
