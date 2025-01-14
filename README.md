@@ -55,7 +55,7 @@ dir scripts
 root@b147ac78b837:/ros2_tf2_ws/src/learning_tf2# to
 uch scripts/tf2_listener.py
 root@b147ac78b837:/ros2_tf2_ws/src/learning_tf2# mkdir launch
-root@b147ac78b837:/ros2_tf2_ws/src/learning_tf2# touch learning_tf2_launch_1.py
+root@b147ac78b837:/ros2_tf2_ws/src/learning_tf2# touch launch/learning_tf2_launch_1.py
 root@b147ac78b837:/ros2_tf2_ws/src/learning_tf2# chmod +x scripts/tf2_listener.py 
 ```
 
