@@ -60,3 +60,11 @@ root@b147ac78b837:/ros2_tf2_ws/src/learning_tf2# chmod +x scripts/tf2_listener.p
 ```
 
 All new Files in the scripts folder will need to be made into executables as well
+
+
+ros2_tf2_ws$ colcon_build
+ros2_tf2_ws$ source /opt/ros/foxy/setup.bash 
+ros2_tf2_ws$ source install/local_setup.bash 
+ros2_tf2_ws$ ros2 launch learning_tf2 learning_tf2_launch_1.py
+
+

@@ -20,6 +20,9 @@ find_package(ament_cmake REQUIRED)
 find_package(ament_cmake_python REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(rclpy REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(tf2_ros_py REQUIRED)
+find_package(turtlesim REQUIRED)
 
 # uncomment the following section in order to fill in
 # further dependencies manually.
@@ -40,7 +43,8 @@ include_directories(include)
 ament_python_install_package(${PROJECT_NAME})
 
 install(PROGRAMS
-  scripts/tf2_listener.py
+  scripts/turtle_tf2_broadcaster.py
+  scripts/turtle_tf2_static_broadcaster.py
   DESTINATION lib/${PROJECT_NAME}
 )
 
